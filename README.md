@@ -9,5 +9,5 @@ Lýsing á uppsetningu verkefnisins:
 
 Unnið af:
 Kári Viðar Jónsson
-Loftur Einarsson hinn mesti
+Loftur Einarsson
 Valur Páll Stefán Valsson
