@@ -15,7 +15,7 @@
   color: #eee;
   background-color: #666;
 
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: "Roboto Slab", helvetica, arial, sans-serif;
   font-size: 1rem;
 
   text-decoration: none;
@@ -31,6 +31,10 @@
 
   &--first {
     align-self: flex-start;
+    background-color: #000;
+    border: none;
+    font-style: bold;
+    font-size: 2rem;
   }
 
   &--inverted {
