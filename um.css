@@ -1,0 +1,139 @@
+html{
+  font-size: 16px;
+  display: flex;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header{
+  color: white;
+  background: transparent url(bg-subpage.jpg) no-repeat fixed 50% 50%;
+  width: 100%;
+  min-height: 500px;
+  background-size: cover;
+}
+
+ul{
+  flex-direction: row;
+}
+
+header{
+  flex-direction: row;
+}
+
+header > .titill{
+  align-self: center;
+}
+
+
+
+footer{
+  background-color: rgb(57, 58, 61);
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+header{
+  display: flex;
+  justify-content: row;
+}
+
+
+
+blockquote{
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 1.125em;
+  flex-wrap: wrap;
+  align-self: flex-end;
+}
+
+footer{
+  display flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*.footer > .vinstri{
+  justify-content: flex-start;
+}
+
+.footer >.haegri{
+  justify-content: flex-end;
+}
+
+.footer > .botn{
+  justify-content: center;
+}
+*/
+div.vinstri{
+  align-self: flex-start;
+}
+div.haegri{
+  align-self: flex-end;
+}
+
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 5px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 256px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #eee;
+  background-color: #666;
+  font-family: 'Roboto Slab', helvetica, arial, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+  .button:hover {
+    color: #eee;
+    background-color: #333;
+    transition: background 500ms, ease 500ms; }
+  .button--inverted {
+    color: #666;
+    background-color: #eee; }
+  .button--inverted:hover {
+    color: #333;
+    background-color: #ccc; }
+  .button--disabled, .button--disabled:hover {
+    border-color: #eee;
+    color: #999;
+    background-color: #eee; }
+
+    .button--first{
+      background-color: rgba(0, 0, 0, 0);
+      font-family: 'Roboto Slab';
+      font-weight: bold;
+      border: none;
+      align-self: flex-start;
+    }
+
+    .button--first:hover{
+      background-color: rgba(0, 0, 0, 0);
+    }
