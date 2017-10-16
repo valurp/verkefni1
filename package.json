@@ -4,7 +4,7 @@
   "description": "Stórt verkefni í vefforritun 2017",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files forsida.html styles.scss",
+    "browser-sync": "browser-sync start --server --files index.html styles.scss",
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
