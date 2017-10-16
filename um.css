@@ -1,6 +1,5 @@
 html{
   font-size: 16px;
-  display: flex;
 }
 
 body{
@@ -23,7 +22,7 @@ header{
   color: white;
   background: transparent url(bg-subpage.jpg) no-repeat fixed 50% 50%;
   width: 100%;
-  min-height: 500px;
+  min-height: 250px;
   background-size: cover;
 }
 
@@ -34,11 +33,6 @@ ul{
 header{
   flex-direction: row;
 }
-
-header > .titill{
-  align-self: center;
-}
-
 
 
 footer{
@@ -52,44 +46,27 @@ h3 {
   font-family: 'Roboto Slab', serif;
 }
 
-header{
+.header{
   display: flex;
   justify-content: row;
 }
 
-
-
-blockquote{
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-size: 1.125em;
-  flex-wrap: wrap;
-  align-self: flex-end;
-}
-
-footer{
-  display flex;
+/*
+.header{
+  list-style-type: none;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  position: fixed;
+}*/
+
+
+.header > .button--first{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
 }
 
-/*.footer > .vinstri{
-  justify-content: flex-start;
-}
-
-.footer >.haegri{
-  justify-content: flex-end;
-}
-
-.footer > .botn{
-  justify-content: center;
-}
-*/
-div.vinstri{
-  align-self: flex-start;
-}
-div.haegri{
-  align-self: flex-end;
+.header > .button--first:hover{
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .button {
@@ -125,15 +102,3 @@ div.haegri{
     border-color: #eee;
     color: #999;
     background-color: #eee; }
-
-    .button--first{
-      background-color: rgba(0, 0, 0, 0);
-      font-family: 'Roboto Slab';
-      font-weight: bold;
-      border: none;
-      align-self: flex-start;
-    }
-
-    .button--first:hover{
-      background-color: rgba(0, 0, 0, 0);
-    }
