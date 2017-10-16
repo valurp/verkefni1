@@ -1,0 +1,158 @@
+<!doctype html>
+<html class="grid" lang="is">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stórt verkefni 1 - Forsíða</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Roboto+Slab:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+  <header class="header__kaupa">
+    <nav>
+      <ul>
+        <li><a class="button button--first" href="forsida.html">Fooþjónustan</a></li>
+        <li><a class="button" href="um.html">Um</a></li>
+        <li><a class="button" href="kaupa.html">Kaupa</a></li>
+      </ul>
+    </nav>
+    
+       
+     
+  </header>
+  <main>
+     
+    
+    <div class="cardlist">
+      
+        <div class="cardlist__row">
+
+          <div class="cardlist__col">
+            <div class="kaupa">
+              <div class="field__text">
+                <h1> Persónuupplýsingar </h1>
+              </div>   
+              <div class="field">
+                <label for="nafn">Nafn:</label>
+                <input type="text" name="nafn" id="text" class="textbox" required>
+              </div>
+              <div class="field">
+                <label for="nafn">Kennitala:</label>
+                <input type="text" name="nafn" id="text" class="textbox" maxlength="11" placeholder="123456-7890" required>
+              </div>
+              <div class="field">
+                  <p> Kyn: </p>  
+                    <label>
+                        <input name="val" type="radio" value="1" class="field__radio">
+                            Kona
+                        </label>
+                        <label>
+                            <input name="val" type="radio" value="2" class="field__radio">
+                            Karl
+                        </label>
+                        <label>
+                            <input name="val" type="radio" value="3" class="field__radio">
+                            Annað
+                        </label>
+              </div>
+              <div class="field">
+                <label for="tele">Sími:</label>
+                <input type="tel" name="tele" id="tele" class="textbox" placeholder="+354 812 3456" required>
+              </div>
+              <div class="field">
+                    <label for="home">Heimilisfang:</label>
+                    <input type="text" name="home" id="home" class="textbox" required>
+                  </div>
+                  <div class="field">
+                    <label>                              
+                      <input type="checkbox" name="continue" checked> Skrá mig á póstlista
+                    </label>
+                  </div>    
+            </div>
+          </div>
+
+          <div class="cardlist__col">
+            <div class="kaupa">
+              <div class="field__text">
+                <h1> Greiðsluupplýsingar</h1>
+              </div>    
+              <div class="field">
+                <label for="service">Greiða með:</label>
+                <select name="service" id="service" class="menubar">
+                  <option>Kreditkorti</option>
+                  <option>Millifærslu</option>
+                  <option>Reiðufé</option>
+                </select>
+              </div>
+              <div class="field">
+               <label for="nafn">Nafn á korti:</label>
+               <input type="text" name="nafn" id="nafn" class="textbox" required>
+              </div>
+              <div class="field">
+                <label for="nafn">Kortanúmer:</label>
+                <input type="text" name="nafn" id="nafn" class="textbox" placeholder="5999-9999-9999-9999" required>
+              </div>
+              <div class="field__artal">
+                <p> Gildistími: </p>    
+                <div class="field__timi">
+                <div>
+                  <label for="service">Mán</label>
+                </div>
+                <div>  
+                    <select name="service" id="service" class="menubar__timi">
+                      <option>01</option>
+                      <option>02</option>
+                      <option>03</option>
+                      <option>04</option>
+                      <option>05</option>
+                      <option>06</option>
+                      <option>07</option>
+                      <option>08</option>
+                      <option>09</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                    </select>
+                  </div>    
+                 
+                  <div> 
+                    <label for="service">Ár</label>
+                  </div>
+                  <div>  
+                    <select name="service" id="service" class="menubar__timi">
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                    </select>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          
+         
+            
+        </div>
+         
+      </div>
+    </div> 
+      <div class="col col-12">
+        <div class="card__content">
+        <button class="button">Panta</button>
+        </div>
+      </div> 
+    
+  
+    
+  </main>
+    <footer>
+      Fooþjónustan 123-4567 Opið 12-13 alla daga Bargata 1 900 Foobar © Fooþjónustan 2017
+    </footer>
+  
+  
+  
+</body>
+
+</html>
