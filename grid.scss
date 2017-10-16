@@ -1,9 +1,9 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  //margin-right: -($gutter / 2);
-  margin-bottom: $gutter * 2;
-  //margin-left: -($gutter / 2);
+  margin-right: -($gutter / 2);
+  margin-bottom: $gutter;
+  margin-left: -($gutter / 2);
 }
 
 // mixin sem reiknar nákvæmar prósentur útfrá dálkum
@@ -13,9 +13,8 @@
 }
 
 .col {
-  //padding: 2rem;
-  //padding-right: $gutter / 2;
-  //padding-left: $gutter / 2;
+  padding-right: $gutter / 2;
+  padding-left: $gutter / 2;
 
   &-12 {
     @include columns(12);
@@ -23,10 +22,6 @@
 
   &-4 {
     @include columns(4);
-  }
-
-  &-6 {
-    @include columns(6);
   }
 
   &-8 {

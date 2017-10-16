@@ -33,32 +33,16 @@ html { /* stylelint-disable-line */
 }
 
 img { /* stylelint-disable-line */
-  width: 100%;
+  max-width: 100%;
 }
 
 main { /* stylelint-disable-line */
-  //max-width: $max-width;
-  //margin: 0 auto;
+  max-width: $max-width;
+  margin: 0 auto;
 
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku
   overflow-x: hidden;
-}
-
-nav {
-  background-color: rgba(0, 0, 0, 0.80);
-  width: 100%;
-}
-
-.checkmynd {
-  width: 4%;
-  position: relative;
-  top: 30px;
-}
-
-.h3medmynd {
-  position: relative;
-  left: 30px;
 }
 
 @import "scss/grid";
@@ -68,5 +52,6 @@ nav {
 @import "scss/button";
 @import "scss/card";
 @import "scss/cardlist";
-@import "scss/nav";
-@import "scss/footer";
+@import "scss/form";
+@import "scss/textarea";
+@import "scss/headpic";
