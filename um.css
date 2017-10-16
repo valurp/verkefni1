@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  display: flex;
 }
 
 body{
@@ -18,11 +19,40 @@ nav{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.forsida{
+  justify-content: flex-start;
+}
+
+.navtakkar{
+  justify-content: flex-end;
+}
+
+
+nav{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0.001rem;
+  background-color: rgba(0, 0, 0, 0.01);
+  text-align: center; }
+  .nav__haegri {
+    justify-content: flex-end; }
+
+.nav .haegri {
+  justify-content: flex-end; }
+
 header{
   color: white;
   background: transparent url(bg-subpage.jpg) no-repeat fixed 50% 50%;
   width: 100%;
-  min-height: 250px;
+  min-height: 500px;
   background-size: cover;
 }
 
@@ -33,6 +63,11 @@ ul{
 header{
   flex-direction: row;
 }
+
+header > .titill{
+  align-self: center;
+}
+
 
 
 footer{
@@ -46,29 +81,47 @@ h3 {
   font-family: 'Roboto Slab', serif;
 }
 
-.header{
+header{
   display: flex;
   justify-content: row;
 }
 
-/*
-.header{
-  list-style-type: none;
-  display: flex;
+blockquote{
+  width: 50%;
+  float: right;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 1.125em;
+  margin: 3rem;
+  /*flex-wrap: wrap;
+  align-self: flex-end;*/
+}
+
+footer{
+  display flex;
   flex-direction: row;
-  position: fixed;
-}*/
-
-
-.header > .button--first{
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
+  justify-content: space-around;
 }
 
-.header > .button--first:hover{
-  background-color: rgba(0, 0, 0, 0);
+footer > .vinstri{
+  align-self: flex-start;
 }
 
+footer > .haegri{
+  align-self: flex-end;
+}
+/*
+.footer > .botn{
+  justify-content: center;
+}
+
+div.vinstri{
+  align-self: flex-start;
+}
+div.haegri{
+  align-self: flex-end;
+}
+*/
 .button {
   display: inline-block;
   margin: 0;
@@ -88,17 +141,30 @@ h3 {
   text-align: center;
   cursor: pointer;
 }
-  .button:hover {
-    color: #eee;
-    background-color: #333;
-    transition: background 500ms, ease 500ms; }
-  .button--inverted {
-    color: #666;
-    background-color: #eee; }
-  .button--inverted:hover {
-    color: #333;
-    background-color: #ccc; }
-  .button--disabled, .button--disabled:hover {
-    border-color: #eee;
-    color: #999;
-    background-color: #eee; }
+
+.button:hover {
+  color: #eee;
+  background-color: #333;
+  transition: background 500ms, ease 500ms; }
+.button--inverted {
+  color: #666;
+  background-color: #eee; }
+.button--inverted:hover {
+  color: #333;
+  background-color: #ccc; }
+.button--disabled, .button--disabled:hover {
+  border-color: #eee;
+  color: #999;
+  background-color: #eee; }
+
+.button--first{
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  border: none;
+  align-self: flex-start;
+}
+
+.button--first:hover{
+  background-color: rgba(0, 0, 0, 0);
+}
