@@ -1,0 +1,16 @@
+.textbox {
+    
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 4px 3px;
+}
+
+.menubar {
+    border-radius: 3px;
+
+    &__timi {
+        width: 100px;
+        
+    }
+}
