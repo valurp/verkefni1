@@ -29,8 +29,6 @@ img {
 
 main {
   /* stylelint-disable-line */
-  max-width: 1200px;
-  margin: 0 auto;
   overflow-x: hidden; }
 
 nav {
@@ -49,7 +47,7 @@ nav {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 200px; }
+  margin-bottom: 40px; }
 
 .col-12 {
   width: 100%; }
@@ -73,7 +71,8 @@ nav {
   background: transparent url(bg.jpg) no-repeat fixed 50% 50%;
   width: 100%;
   min-height: 700px;
-  height: auto; }
+  height: auto;
+  display: flex; }
 
 @keyframes fadeIn {
   0% {
@@ -88,17 +87,15 @@ nav {
     opacity: 1; } }
 
 .heading {
-  margin-top: 10rem;
   width: 100%;
+  margin: auto;
   padding: 0;
   border: none;
   font-family: "Roboto Slab", georgia, serif;
-  font-size: 2rem; }
+  font-size: 2.25rem; }
   .heading--one {
-    font-size: 3rem;
+    font-size: 3.75rem;
     transition: opacity 250ms linear 0;
-    font-size: 2rem;
-    font-size: 3.4rem;
     opacity: 1;
     color: black;
     animation-name: fadeIn;
@@ -108,6 +105,7 @@ nav {
     font-size: 2.25rem;
     opacity: 1;
     color: black;
+    transition: text 3s, opacity 1s ease-in;
     animation-name: fadeIn;
     animation-delay: 1ms;
     animation-duration: 1s;
@@ -166,8 +164,13 @@ nav {
     background: transparent;
     border: none;
     font-family: "Roboto Slab: 700";
-    font-size: 2rem; }
+    font-size: 2.25rem; }
+  .button--first:hover {
+    background-color: transparent; }
   .button--second {
+    background: transparent;
+    border: none; }
+  .button--second:hover {
     background: transparent;
     border: none; }
   .button--third {
@@ -183,11 +186,11 @@ nav {
     color: #999;
     background-color: #eee; }
   .button--transparent {
-    background-color: rgba(102, 102, 102, 0.85);
+    background-color: rgba(102, 102, 102, 0.9);
     border: none;
     width: 60%;
     margin: 2rem;
-    font-size: 2rem;
+    font-size: 2.25rem;
     max-width: 8rem;
     opacity: 1;
     animation-name: fadeIn;
@@ -196,8 +199,6 @@ nav {
 
 .card {
   width: 100%;
-  min-width: 200px;
-  max-width: 800px;
   height: 100%;
   overflow: hidden;
   border-radius: 3px;
@@ -234,12 +235,13 @@ nav {
         height: 100%;
         border-radius: 80%;
         width: 100%; } }
+  .card--padding {
+    padding: 2rem; }
 
 .cardlist__row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -10px;
-  margin-bottom: 120px;
   margin-left: -10px;
   align-items: stretch; }
 
@@ -258,7 +260,6 @@ nav {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  padding: 0.001rem;
   background-color: rgba(0, 0, 0, 0.01);
   text-align: center; }
   .nav__haegri {
@@ -266,6 +267,9 @@ nav {
 
 .nav .haegri {
   justify-content: flex-end; }
+
+nav {
+  position: fixed; }
 
 .footer {
   width: 100%;

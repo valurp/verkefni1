@@ -56,10 +56,19 @@
     background: rgba(0, 0, 0, 0);
     border: none;
     font-family: "Roboto Slab: 700";
-    font-size: 2rem;
+    font-size: 2.25rem;
+  }
+
+  &--first:hover {
+    background-color: rgba(0, 0, 0, 0);
   }
 
   &--second {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+  }
+
+  &--second:hover {
     background: rgba(0, 0, 0, 0);
     border: none;
   }
@@ -86,11 +95,11 @@
   }
 
   &--transparent {
-    background-color: rgba(102, 102, 102, 0.85);
+    background-color: rgba(102, 102, 102, 0.90);
     border: none;
     width: 60%;
     margin: 2rem;
-    font-size: 2rem;
+    font-size: 2.25rem;
     max-width: 8rem;
     opacity: 1;
     animation-name: fadeIn;
