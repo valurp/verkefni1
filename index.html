@@ -10,50 +10,128 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul class=header>
-        <li class=header--li><a class="button button--first" href="forsida.html">Fooþjónustan</a></li>
-        <li><a class="button" href="um.html">Um</a></li>
-        <li><a class="button" href="kaupa.html">Kaupa</a></li>
-      </ul>
-    </nav>
-  </header>
   <main>
-    <h2 class=heading>Í fyrsta skipti á Íslandi</h2>
-    <h1 class=heading>Fooþjónustan</h1>
+    <header class="header">
+      <nav>
+        <ul class="nav">
+        <div class="nav nav__vinstri">
+          <li><a class="button button--first" href="forsida.html">Fooþjónustan</a></li>
+        </div>
+        <div class="nav nav__haegri">
+          <li><a class="button button--second" href="um.html">Um</a></li>
+          <li><a class="button button--third" href="kaupa.html">Kaupa</a></li>
+        </div>
+        </ul>
+      </nav>
+      <div class="heading">
+      <h2 class="heading--two">Í fyrsta skipti á Íslandi</h2>
+      <h1 class="heading--one">Fooþjónustan</h1>
+      <button class="button button--transparent">Kaupa</button>
+    </header>
+    <div class="grid">
+      <div class="row">
+        <div class="col col-6">
+          <div class="text__p">
+            <img class="checkmynd" src="check.svg" alt="">
+            <h3 class="h3medmynd">Ódýr og góð þjónusta</h3>
+            <p>Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</p>
+          </div>
+          <div class="text__p">
+            <img class="checkmynd" src="check.svg" alt="">
+            <h3 class="h3medmynd">Þægilegt í amstri dagsins</h3>
+            <p>Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</p>
+          </div>
+          <div class="text__p">
+            <img class="checkmynd" src="check.svg" alt="">
+            <h3 class="h3medmynd">Nauðsynlegt á hvert heimili</h3>
+            <p>Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</p>
+          </div>
+        </div>
+        <div class="col col-6">
+          <img src="image.jpg" alt="">
+        </div>
+      </div>
+    </div>
 
-    <button>Kaupa</button>
-
-    <h3 class=heading>Ódýr og góð þjónusta</h3>
-    <p>Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</p>
-
-    <h3 class=heading>Þægilegt í amstri dagsins</h3>
-    <p>Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</p>
-
-    <h3 class="heading">Nauðsynlegt á hvert heimili</h3>
-    <p>Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</p>
-
-    Kaupa! Núna! Strax!
-
-    <p>„Ég get engan veginn hugsað mér lífið án þessarar þjónustu!“</p>
-    <p>Anna Jóns</p>
-    <p>Áskrifandi í þrjá mánuði</p>
-
-    <p>„Vá, þetta breytir öllu!“</p>
-    <p>Siggi Páls</p>
-    <p>Áskrifandi í tvo daga</p>
-
-    <p>„A+++, mun aldrei hætta í áskrift“</p>
-    <p>Jón Guðrúnarson</p>
-    <p>Áskrifandi í ár</p>
-
-    <h3 class="heading">Eftir hverju ert þú að bíða?</h3>
-    <button>Kaupa</button>
-
+    <div class="cardlist">
+      <div class="cardlist__row">
+        <div class="cardlist__col col-4">
+          <div class="card col-4">
+            <div class="card__image">
+              <img class="card__img" src="profile1.jpg" alt="">
+            </div>
+            <div class="card__content">
+              <h2 class="card__heading">„Ég get engan veginn hugsað mér lífið án þessarar þjónustu!“</h2>
+              <div class="card__text">
+                <p>Anna Jóns</p>
+                <p>Áskrifandi í þrjá mánuði</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardlist__col col-4">
+          <div class="card col-4">
+            <div class="card__image">
+              <img class="card__img" src="profile2.jpg" alt="">
+            </div>
+            <div class="card__content">
+              <h2 class="card__heading">„Vá, þetta breytir öllu!“</h2>
+              <div class="card__text">
+                <p>Siggi Páls</p>
+                <p>Áskrifandi í tvo daga</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardlist__col col-4">
+          <div class="card col-4">
+            <div class="card__image">
+              <img class="card__img" src="profile3.jpg" alt="">
+            </div>
+            <div class="card__content">
+              <h2 class="card__heading">„A+++, mun aldrei hætta í áskrift“</h2>
+              <div class="card__text">
+                <p>Jón Guðrúnarson</p>
+                <p>Áskrifandi í ár</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-12">
+      <div class="card__content">
+          <h3>Eftir hverju ert þú að bíða?</h3>
+          <button class="button button--transparent">Kaupa</button>
+        </div>
+      </div>
     <footer>
-      Fooþjónustan 123-4567 Opið 12-13 alla daga Bargata 1 900 Foobar © Fooþjónustan 2017
-    </footer>
+      <div class="col">
+        <div class="footer">
+        <div class="footer__content">
+          <p class="p"><strong>Fooþjónustan<br>
+          123-4567</strong></p>
+
+      </div>
+
+        <div class="footer__content">
+          <p class="p"><strong>Opið 12-13 alla daga<br>
+          Bargata 1<br>
+          900 Foobar</strong></p>
+        </div>
+      </div>
+    </div>
+
+      <div class="col">
+        <div class="footer">
+        <div class="footer__content">
+          <p class="p--subscript">© Fooþjónustan 2017</p>
+        </div>
+      </div>
+    </div>
+      </footer>
+
+
   </main>
 </body>
 

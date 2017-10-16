@@ -1,0 +1,19 @@
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  width: 100%;
+  padding: 0.001rem;
+  background-color: rgba(0, 0, 0, 0.01);
+  text-align: center;
+
+  &__haegri {
+    justify-content: flex-end;
+  }
+}
+
+.nav .haegri {
+  justify-content: flex-end;
+}
