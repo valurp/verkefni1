@@ -6,8 +6,8 @@ Upplýsingar um hvernig keyra skuli verkefnið:
     "node-sass": "^4.5.3"
 
 
-Lýsing á uppsetningu verkefnisins:
-Verkefnið eru þjrár html síður, index.html, um.html og kaupa.html. Í möppunni eru allar skrár og myndir.     
+Lýsing á uppsetningu verkefnisins: \n
+Verkefnið eru þjrár html síður, index.html, um.html og kaupa.html. Í möppunni eru allar skrár og myndir. \n    
 "browser-sync": "browser-sync start --server --files index.html styles.scss",
 "sass": "node-sass um.css styles.css styles.scss lstyles.css lstyles.scss -w",
 "dev": "npm-run-all --parallel sass browser-sync",
@@ -15,6 +15,6 @@ Verkefnið eru þjrár html síður, index.html, um.html og kaupa.html. Í möpp
 
 
 Unnið af:
-Kári Viðar Jónsson
-Loftur Einarsson
+Kári Viðar Jónsson \n
+Loftur Einarsson \n
 Valur Páll Stefán Valsson
