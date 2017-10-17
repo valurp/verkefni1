@@ -1,0 +1,109 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0.25;
+  }
+
+  45% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.lbutton {
+  display: inline-block;
+  margin-right: 2rem;
+  /*margin: 0;*/
+  padding: 10px 5px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 256px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: #eee;
+  background-color: #666;
+
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 1rem;
+
+  text-decoration: none;
+  text-align: center;
+
+  cursor: pointer;
+
+  &:hover {
+    color: #eee;
+    background-color: #333;
+    transition: background 500ms, ease 500ms;
+  }
+
+  &--first {
+    align-self: flex-start;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: "Roboto Slab: 700";
+    font-size: 2.25rem;
+  }
+
+  &--first:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  &--second {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+  }
+
+  &--second:hover {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+  }
+
+  &--third {
+    width: 80%;
+  }
+
+  &--inverted {
+    color: #666;
+    background-color: #eee;
+  }
+
+  &--inverted:hover {
+    color: #333;
+    background-color: #ccc;
+  }
+
+  &--disabled,
+  &--disabled:hover {
+    border-color: #eee;
+    color: #999;
+    background-color: #eee;
+  }
+
+  &--transparent {
+    background-color: rgba(102, 102, 102, 0.90);
+    border: none;
+    width: 60%;
+    margin: 2rem;
+    font-size: 2.25rem;
+    max-width: 8rem;
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-delay: 1ms;
+    animation-duration: 3s;
+  }
+}
