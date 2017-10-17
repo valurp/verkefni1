@@ -15,6 +15,6 @@ Verkefnið eru þjrár html síður, index.html, um.html og kaupa.html. Í möpp
 
 
 Unnið af:
-Kári Viðar Jónsson \n
+Kári Viðar Jónsson <br />
 Loftur Einarsson \n
 Valur Páll Stefán Valsson
