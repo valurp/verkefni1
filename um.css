@@ -92,8 +92,6 @@ blockquote{
   font-style: italic;
   font-size: 1.125em;
   margin: 3rem;
-  /*flex-wrap: wrap;
-  align-self: flex-end;*/
 }
 
 .source{
@@ -115,18 +113,7 @@ footer > .vinstri{
 footer > .haegri{
   align-self: flex-end;
 }
-/*
-.footer > .botn{
-  justify-content: center;
-}
 
-div.vinstri{
-  align-self: flex-start;
-}
-div.haegri{
-  align-self: flex-end;
-}
-*/
 .button {
   display: inline-block;
   margin: 0;
@@ -169,10 +156,39 @@ div.haegri{
   background-color: rgba(0, 0, 0, 0);
   border: none;
   margin-right: 50px;
-  /*margin-bottom: -20px;*/
 }
 
 .button--third{
   margin-right: 70px;
-  /*margin-bottom: -20px;*/
 }
+
+.lfooter {
+  width: 100%;
+  min-width: 200px;
+  height: 100%;
+  overflow: hidden;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #4b4b4b;
+}
+
+  @media (min-width: 800px) {
+    .lfooter--wide {
+      display: flex; } }
+  .lfooter__heading {
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: Merriweather, georgia, serif;
+    font-size: 1.5rem;
+    word-break: break-word; }
+  .lfooter__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    @media (min-width: 800px) {
+      .lfooter__content {
+        align-items: center; } }
