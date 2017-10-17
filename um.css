@@ -19,18 +19,18 @@ nav{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.forsida{
+.nav__vinstri{
   justify-content: flex-start;
 }
 
-.navtakkar{
+.nav__haegri{
   justify-content: flex-end;
 }
-
 
 nav{
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
+  position: fixed;
 }
 
 .nav {
@@ -42,11 +42,7 @@ nav{
   padding: 0.001rem;
   background-color: rgba(0, 0, 0, 0.01);
   text-align: center; }
-  .nav__haegri {
-    justify-content: flex-end; }
 
-.nav .haegri {
-  justify-content: flex-end; }
 
 header{
   color: white;
@@ -66,9 +62,8 @@ header{
 
 header > .titill{
   align-self: center;
+  margin-left: 0.5em;
 }
-
-
 
 footer{
   background-color: rgb(57, 58, 61);
@@ -79,6 +74,10 @@ h1,
 h2,
 h3 {
   font-family: 'Roboto Slab', serif;
+}
+
+h2{
+  margin-top: 3em;
 }
 
 header{
@@ -95,6 +94,12 @@ blockquote{
   margin: 3rem;
   /*flex-wrap: wrap;
   align-self: flex-end;*/
+}
+
+.source{
+  font-size: 0.75em;
+  margin-top: 1em;
+  font-style: normal;
 }
 
 footer{
@@ -146,16 +151,7 @@ div.haegri{
   color: #eee;
   background-color: #333;
   transition: background 500ms, ease 500ms; }
-.button--inverted {
-  color: #666;
-  background-color: #eee; }
-.button--inverted:hover {
-  color: #333;
-  background-color: #ccc; }
-.button--disabled, .button--disabled:hover {
-  border-color: #eee;
-  color: #999;
-  background-color: #eee; }
+
 
 .button--first{
   background-color: rgba(0, 0, 0, 0);
@@ -167,4 +163,16 @@ div.haegri{
 
 .button--first:hover{
   background-color: rgba(0, 0, 0, 0);
+}
+
+.button--second{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-right: 50px;
+  /*margin-bottom: -20px;*/
+}
+
+.button--third{
+  margin-right: 70px;
+  /*margin-bottom: -20px;*/
 }

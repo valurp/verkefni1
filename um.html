@@ -4,26 +4,25 @@
   <meta charset="utf-8">
   <title>Um</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i|Roboto+Slab:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="um.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="grid.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="nav">
-      <div class="forsida">
-        <li><a class="button button--first" href="index.html">Fooþjónustan</a></li>
-      </div>
-      <div class="navtakkar">
-        <li><a class="button button--second" href="um.html">Um</a></li>
-        <li><a class="button button--third" href="kaupa.html">Kaupa</a></li>
-      </div>
-      </ul>
-    </nav>
-      <h1 class="titill">Um Fooþjónustuna<h1>
-    </header>
-
-  <main>
+    <header>
+      <nav>
+        <ul class="nav">
+        <div class="nav nav__vinstri">
+          <li><a class="button button--first" href="forsida.html">Fooþjónustan</a></li>
+        </div>
+        <div class="nav nav__haegri">
+          <li><a class="button button--second" href="um.html">Um</a></li>
+          <li><a class="button button--third" href="kaupa.html">Kaupa</a></li>
+        </div>
+        </ul>
+      </nav>
+        <h1 class="titill">Um Fooþjónustuna<h1>
+      </header>
+      <main>
     <h2>Hvað er Fooþjónustan?</h2>
     <p>Í hinum ódauðlegu orðum stofnanda okkar:</p>
 
@@ -34,7 +33,8 @@
     <div class="col col-6">
     <blockquote cite="— Foobarius Baz">
       „Aenean in purus vel leo pellentesque lacinia non ut magna. Sed eleifend tristique mollis.“
-      <br>— Foobarius Baz
+      <br>
+      <div class="source">— Foobarius Baz</div>
     </blockquote>
     </div>
 
@@ -46,15 +46,30 @@
 
   </main>
   <footer>
-    <div class="vinstri">Fooþjónustan
-    123-4567</div>
+    <div class="col">
+      <div class="footer">
+      <div class="footer__content">
+        <p class="p"><strong>Fooþjónustan<br>
+        123-4567</strong></p>
 
-    <div class="haegri">Opið 12-13 alla daga
-    Bargata 1
-    900 Foobar</div>
+    </div>
 
-    <div class="botn">© Fooþjónustan 2017</div>
-  </footer>
+      <div class="footer__content">
+        <p class="p"><strong>Opið 12-13 alla daga<br>
+        Bargata 1<br>
+        900 Foobar</strong></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col">
+      <div class="footer">
+      <div class="footer__content">
+        <p class="p--subscript">© Fooþjónustan 2017</p>
+      </div>
+    </div>
+  </div>
+    </footer>
 
 </body>
 
