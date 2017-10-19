@@ -37,7 +37,7 @@
   color: #eee;
   background-color: #666;
 
-  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 
   text-decoration: none;
@@ -55,8 +55,9 @@
     align-self: flex-start;
     background: rgba(0, 0, 0, 0);
     border: none;
-    font-family: "Roboto Slab: 700";
-    font-size: 2.25rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    font-weight: bold;
   }
 
   &--first:hover {
@@ -95,7 +96,7 @@
   }
 
   &--transparent {
-    background-color: rgba(102, 102, 102, 0.90);
+    background-color: rgba(102, 102, 102, 0.50);
     border: none;
     width: 60%;
     margin: 2rem;

@@ -15,6 +15,9 @@ html { /* stylelint-disable-line */
   padding: 0;
   margin: 0;
 }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 html { /* stylelint-disable-line */
   // til þess að texti liggi ekki upp við brún á viewport þegar
@@ -23,7 +26,7 @@ html { /* stylelint-disable-line */
   margin-right: $gutter;
   margin-left: $gutter;
 
-  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 
@@ -55,3 +58,13 @@ main { /* stylelint-disable-line */
 @import "scss/form";
 @import "scss/textarea";
 @import "scss/footer";
+@import "scss/lcard";
+@import "scss/lcardlist";
+@import "scss/lbutton";
+@import "scss/lfooter";
+@import "scss/lgrid";
+@import "scss/lheader";
+@import "scss/lheading";
+@import "scss/lnav";
+@import "scss/ltext";
+@import "scss/nav";

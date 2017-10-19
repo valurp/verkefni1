@@ -1,0 +1,41 @@
+
+
+.kaupa {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+
+.field {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    
+
+    &__radio {
+        margin: 0.5em;
+
+    }
+
+    &__artal {
+        //flex-direction: row;
+      
+      
+    }
+    &__timi {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    &__text {
+        font-size: 0.6em;
+        margin-bottom: 2em;
+    }
+}
+
+//h1 {
+//    font-family: 'Roboto Slab', serif;
+//}
+
