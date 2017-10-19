@@ -16,7 +16,7 @@ nav{
   position: fixed;
   width: 100%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .nav__vinstri{
@@ -27,12 +27,6 @@ nav{
   justify-content: flex-end;
 }
 
-nav{
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 100%;
-  position: fixed;
-}
-
 .nav {
   list-style-type: none;
   display: flex;
@@ -40,9 +34,7 @@ nav{
   align-items: center;
   width: 100%;
   padding: 0.001rem;
-  background-color: rgba(0, 0, 0, 0.01);
   text-align: center; }
-
 
 header{
   color: white;
@@ -138,7 +130,6 @@ footer > .haegri{
   color: #eee;
   background-color: #333;
   transition: background 500ms, ease 500ms; }
-
 
 .button--first{
   background-color: rgba(0, 0, 0, 0);
