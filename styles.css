@@ -65,7 +65,7 @@ main {
   min-height: 35em;
   height: auto;
   background: transparent url(bg-subpage.jpg) no-repeat 50% 50%;
-  background-size: 100em;
+  background-size: cover;
   margin-bottom: 8em; }
 
 header > .titill {
